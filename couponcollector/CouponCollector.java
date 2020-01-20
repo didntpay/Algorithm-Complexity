@@ -7,7 +7,6 @@ import java.util.Random;
 
 public class CouponCollector {
     private int size;
-    private int[] couponsID;
     private int currentSetSize;
     private int currentUniqueSize;
     private int currentSize;
@@ -15,11 +14,7 @@ public class CouponCollector {
 
     public CouponCollector(int setSize){
         this.size = setSize;
-        this.couponsID = new int[this.size];
         this.currentCoupons = new HashSet<>();
-        for (int i = 0; i < setSize; i++) {
-            couponsID[i] = i;
-        }
     }
 
     public void nextCoupon(){

@@ -1,7 +1,6 @@
 package couponcollector;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Random;
 import java.util.Map;
 
@@ -14,7 +13,6 @@ public class CouponCollectorVT {
     private Map<Integer, Integer> currentCoupons;
 
     public CouponCollectorVT(int setSize){
-        Random random = new Random();
         this.size = setSize;
         this.couponsID = new int[this.size];
         this.currentCoupons = new HashMap<>();
@@ -43,6 +41,14 @@ public class CouponCollectorVT {
 
     public int getCurrentSize(){
         return this.currentSize;
+    }
+
+    public int getFinishedValue(){
+        int total = 0;
+        for (int i = 0; i < couponsID.length; i++){
+            total += this.currentCoupons.get(couponsID[i]);
+        }
+        return total;
     }
 
 
