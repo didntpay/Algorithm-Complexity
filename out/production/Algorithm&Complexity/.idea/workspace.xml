@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4caee519-cd67-497f-9115-4191c3f170fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/GraphPrintUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/couponcollector/CouponCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/couponcollector/CouponCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/couponcollector/CouponCollectorVT.java" beforeDir="false" afterPath="$PROJECT_DIR$/couponcollector/CouponCollectorVT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/couponcollector/CouponTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/couponcollector/CouponTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/couponcollector/CouponTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/couponcollector/CouponTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +36,8 @@
   <component name="ProjectId" id="1W837CuZVAtVDG6Qt5AdA2mcyv0" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSE373/weifeng1/library/hamcrest-core-1.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSE 373/library/junit-4.12.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
@@ -47,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CouponTest.testCouponCollectorVT">
+  <component name="RunManager" selected="JUnit.CouponTest.testCouponCollector">
     <configuration name="CouponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
@@ -59,6 +66,22 @@
       <option name="PACKAGE_NAME" value="couponcollector" />
       <option name="MAIN_CLASS_NAME" value="couponcollector.CouponTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponTest.testCouponCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm&amp;Complexity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="couponcollector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="couponcollector" />
+      <option name="MAIN_CLASS_NAME" value="couponcollector.CouponTest" />
+      <option name="METHOD_NAME" value="testCouponCollector" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CouponTest.testCouponCollector" />
         <item itemvalue="JUnit.CouponTest.testCouponCollectorVT" />
         <item itemvalue="JUnit.CouponTest" />
         <item itemvalue="JUnit.StableMatchTest.givenTestCases" />

@@ -34,7 +34,7 @@ public class CouponTest {
                 average += pool.getFinishedValue();
             }
             System.out.print(testSize[i] + "\t");
-            System.out.println(average / testSize[i] / 100);
+            System.out.println(average / 100);
         }
     }
 }
