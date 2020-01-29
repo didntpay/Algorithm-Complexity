@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4caee519-cd67-497f-9115-4191c3f170fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedyalgorithm/GraphPrintUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/couponcollector/CouponTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/couponcollector/CouponTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/couponcollector/CouponTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/couponcollector/CouponTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/ConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/ConnectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraphGenerator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,18 +50,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RandomGeneratorTest.testRandom">
-    <configuration name="CouponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ConnectedComponent">
+    <configuration name="ConnectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ConnectedComponent" />
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="couponcollector.*" />
+          <option name="PATTERN" value="greedyalgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="couponcollector" />
-      <option name="MAIN_CLASS_NAME" value="couponcollector.CouponTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,17 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StableMatchTest.givenTestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomGeneratorTest.testRandomGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stablematching.*" />
+          <option name="PATTERN" value="greedyalgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stablematching" />
-      <option name="MAIN_CLASS_NAME" value="stablematching.StableMatchTest" />
-      <option name="METHOD_NAME" value="givenTestCases" />
+      <option name="PACKAGE_NAME" value="greedyalgorithm" />
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.RandomGeneratorTest" />
+      <option name="METHOD_NAME" value="testRandomGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectedComponent" />
+        <item itemvalue="JUnit.RandomGeneratorTest.testRandomGraph" />
         <item itemvalue="JUnit.RandomGeneratorTest.testRandom" />
         <item itemvalue="JUnit.CouponTest.testCouponCollector" />
         <item itemvalue="JUnit.CouponTest.testCouponCollectorVT" />
-        <item itemvalue="JUnit.CouponTest" />
-        <item itemvalue="JUnit.StableMatchTest.givenTestCases" />
       </list>
     </recent_temporary>
   </component>
