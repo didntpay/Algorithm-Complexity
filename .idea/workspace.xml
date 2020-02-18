@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4caee519-cd67-497f-9115-4191c3f170fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/homework4/AdvanceColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/homework4/GraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedyalgorithm/homework4/NeighborCounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/homework3/ConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/GraphPrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/homework3/GraphPrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/homework3/RandomGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/homework3/RandomGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedyalgorithm/RandomGraphGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedyalgorithm/homework3/RandomGraphGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/ConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/ConnectedComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGeneratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/ConnectedComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/GraphPrintUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm&amp;Complexity/greedyalgorithm/RandomGraphGenerator.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +57,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectedComponent">
+  <component name="RunManager" selected="Application.GraphColoring">
+    <configuration name="AdvanceColoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.homework4.AdvanceColoring" />
+      <module name="Algorithm&amp;Complexity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedyalgorithm.homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.ConnectedComponent" />
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.homework3.ConnectedComponent" />
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="PATTERN" value="greedyalgorithm.homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,34 +84,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CouponTest.testCouponCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphColoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.homework4.GraphColoring" />
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="couponcollector.*" />
+          <option name="PATTERN" value="greedyalgorithm.homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="couponcollector" />
-      <option name="MAIN_CLASS_NAME" value="couponcollector.CouponTest" />
-      <option name="METHOD_NAME" value="testCouponCollector" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CouponTest.testCouponCollectorVT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeighborCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.homework4.NeighborCounts" />
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="couponcollector.*" />
+          <option name="PATTERN" value="greedyalgorithm.homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="couponcollector" />
-      <option name="MAIN_CLASS_NAME" value="couponcollector.CouponTest" />
-      <option name="METHOD_NAME" value="testCouponCollectorVT" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,29 +114,13 @@
       <module name="Algorithm&amp;Complexity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedyalgorithm.*" />
+          <option name="PATTERN" value="greedyalgorithm.homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="greedyalgorithm" />
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.RandomGeneratorTest" />
+      <option name="PACKAGE_NAME" value="greedyalgorithm.homework3" />
+      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.homework3.RandomGeneratorTest" />
       <option name="METHOD_NAME" value="testRandom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomGeneratorTest.testRandomGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm&amp;Complexity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedyalgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="greedyalgorithm" />
-      <option name="MAIN_CLASS_NAME" value="greedyalgorithm.RandomGeneratorTest" />
-      <option name="METHOD_NAME" value="testRandomGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConnectedComponent" />
-        <item itemvalue="JUnit.RandomGeneratorTest.testRandomGraph" />
+        <item itemvalue="Application.GraphColoring" />
+        <item itemvalue="Application.AdvanceColoring" />
+        <item itemvalue="Application.NeighborCounts" />
         <item itemvalue="JUnit.RandomGeneratorTest.testRandom" />
-        <item itemvalue="JUnit.CouponTest.testCouponCollector" />
-        <item itemvalue="JUnit.CouponTest.testCouponCollectorVT" />
+        <item itemvalue="Application.ConnectedComponent" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +161,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/greedyalgorithm/homework4/GraphColoring.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.neighbor.keySet().size()" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="this.neighbor." language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

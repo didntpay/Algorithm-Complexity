@@ -1,5 +1,8 @@
-package greedyalgorithm;
+package greedyalgorithm.homework3;
 
+import greedyalgorithm.Vertex;
+
+import java.util.ArrayList;
 import java.util.Random;
 
 public class RandomGraphGenerator {
@@ -12,11 +15,10 @@ public class RandomGraphGenerator {
     public void generate(int n, double p){
         Random random = new Random();
         result = new RandomGraph(n);
-
         for (int i = 0; i < n - 1; i++){
             for (int j = i + 1; j < n; j++){
                 if (random.nextDouble() < p){
-                    result.add(i, j);
+                    result.add(new Vertex(i), new Vertex(j));
                 }
             }
         }
